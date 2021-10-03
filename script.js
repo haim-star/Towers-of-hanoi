@@ -27,10 +27,12 @@ startBtn.addEventListener('click', function(){
     startClicked = true;
     moves = minMoves;
     movesMes.textContent = `moves: ${moves}`;
+    // visable only choosen disks
     for (let i = 1; i <= 8; i++)
         if (i > disks)
             document.getElementById(`d--${i}`).classList.add('hidden');
         else
+        // set column 2 value
             columns[1] =  columns[1] * 10 + i;  
     
 })
@@ -82,6 +84,7 @@ document.addEventListener('mousedown', function(e){
 
     if (startClicked && clickedXScale > 8 && clickedXScale < 92 && clickedYScale > 30 && clickedYScale < 90){
         let colSelected = Math.trunc((clickedXScale - 10) / 26.5);
+        // if disk is picked - put to new colomn
         if (current){
             if (current > columns[colSelected] % 10){
                 // update columns values
@@ -113,7 +116,8 @@ document.addEventListener('mousedown', function(e){
             }
         
         }
-        else{
+        // pick up disk
+        else{ 
             current = columns[colSelected] % 10;
             columns[colSelected]  = Math.trunc(columns[colSelected] / 10);
             fromCol = colSelected;
