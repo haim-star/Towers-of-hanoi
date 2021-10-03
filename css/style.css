@@ -35,7 +35,7 @@ body{
     text-align: center;
     color: #ffff;
     text-transform: uppercase;
-    font-size: 6vh;
+    font-size: 6vmin;
     font-weight: 400;
     letter-spacing: 10px;
     
@@ -92,7 +92,7 @@ body{
     left: 50%;
     transform: translate(-70%, -50%); 
     text-transform: uppercase;
-    font-size: 3vh;
+    font-size: 3vmin;
     font-weight: 700;
 
 }
@@ -116,7 +116,7 @@ body{
 }
 
 .welcomeMes{
-    font-size: 4vh;
+    font-size: 4vmin;
     font-weight: 400;
     color: rgb(25, 95, 70);
 
@@ -296,7 +296,7 @@ body{
     left: 30%;
     transform: translate(-50%, -50%); 
     color: rgb(22, 51, 41);
-    font-size: 8vh;
+    font-size: 8vmin;
     font-weight: 700;
     
 }
@@ -307,7 +307,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%); 
     text-transform: uppercase;
-    font-size: 5vh;
+    font-size: 5vmin;
     font-weight: 700;
 }
 
@@ -325,7 +325,7 @@ body{
 .about1{
     display: block;
     color: rgb(25, 95, 70);
-    font-size: 4vh;
+    font-size: 4vmin;
     font-weight: 700;
     text-transform: uppercase;
     
@@ -334,7 +334,7 @@ body{
 .about2{
     display: block;
     color: rgb(25, 95, 70);
-    font-size: 3vh;
+    font-size: 3vmin;
     font-weight: 700;
 }
 
@@ -343,7 +343,7 @@ body{
     top: 92%;
     right: 0%;
     transform: translate(-50%, -50%);
-    font-size: 4vh;
+    font-size: 4vmin;
     font-weight: 700;
     text-align: center;
 }
@@ -358,7 +358,7 @@ body{
 
 #finish{
     position: absolute;
-    width: 75vw;
+    width: 80vw;
     height: 90vh;
     top: 50%;
     left: 50%;
@@ -378,20 +378,20 @@ body{
     top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5vh;
+    font-size: 5vmin;
     font-weight: 700;
     color: rgb(11, 68, 48);
 }
 
 #restartBtn{
-    width: 12vw;
+    width: 10vw;
     height: 15vh;
     top: 57%;
     left: 50%;
 }
 
 #restartTxt{
-    font-size: 3.3vh;
+    font-size: 2.5vmin;
 }
 
 @keyframes moveFromLeft{
